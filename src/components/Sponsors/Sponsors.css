@@ -1,0 +1,23 @@
+.sponsors {
+  background-color: #FDD04A;
+}
+.sponsors_content {
+  padding: 120px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.sponsors .block_title {
+  color: #222730;
+  font-size: 48px;
+}
+.sponsors .block_description {
+  color: #555555;
+  text-align: center;
+}
+.sponsors_logotypes {
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+}

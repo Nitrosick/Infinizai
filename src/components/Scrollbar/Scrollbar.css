@@ -1,0 +1,17 @@
+.scrollbar {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  width: 20px;
+  background: linear-gradient(90deg, transparent, transparent 40%, white 40%, white 60%, transparent 60%, transparent);
+  z-index: 5;
+}
+.scrollbar_thumb {
+  position: relative;
+  top: 0;
+  height: 0;
+  background-color: #57B8FF;
+  border: 2px solid white;
+  border-radius: 7px;
+}

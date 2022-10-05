@@ -1,0 +1,53 @@
+.shop {
+  background-image: url(/src/images/poster_10.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.shop_content {
+  padding: 120px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+.shop .block_title {
+  text-align: center;
+}
+.shop .block_description {
+  text-align: center;
+}
+.shop_tiles {
+  padding: 0 60px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+.shop_tiles_item {
+  position: relative;
+  padding: 32px 32px 32px 80px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+}
+.shop_tiles_item::before {
+  position: absolute;
+  content: '';
+  top: 32px;
+  left: 32px;
+  width: 30px;
+  height: 30px;
+  background-image: url(/src/images/mark.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.shop_tiles_title {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  color: white;
+  margin-bottom: 20px;
+}
+.shop_tiles .block_description {
+  text-align: left;
+}

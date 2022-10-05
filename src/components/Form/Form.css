@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+}
+.form .input {
+  background-color: white;
+  height: 60px;
+  padding: 0 13px;
+  border: none;
+  outline: 1px solid #999999;
+  min-width: 450px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+}
+.form .input::placeholder {
+  color: #555555;
+}

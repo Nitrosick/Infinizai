@@ -1,0 +1,30 @@
+.button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  line-height: 60px;
+  font-size: 18px;
+  padding: 0 30px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.button.contour {
+  outline: 1px solid white;
+}
+.button.contour:hover {
+  background-color: white;
+  color: #222730;
+}
+.button.standard {
+  outline: 1px solid #57B8FF;
+  background-color: #57B8FF;
+}
+.button.standard:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.button.transparent {
+  outline: 1px solid transparent;
+}
+.button.transparent:hover {
+  outline: 1px solid white;
+}

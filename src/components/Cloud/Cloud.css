@@ -1,0 +1,27 @@
+.cloud {
+  background-color: black;
+}
+.cloud_content {
+  padding: 120px 60px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.cloud_video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 500px;
+  min-height: 550px;
+  background-image: url(/src/images/video_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 120px;
+}
+.cloud .block_title {
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+.cloud .block_description {
+  margin-bottom: 50px;
+}

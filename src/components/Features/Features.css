@@ -1,0 +1,23 @@
+.features {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.features_item {
+  flex-grow: 1;
+  height: 730px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-position: center;
+  background-size: cover;
+}
+.features_title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  color: white;
+}
