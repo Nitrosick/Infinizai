@@ -23,16 +23,20 @@ a {
   flex-grow: 1;
 }
 .block_title {
+  position: relative;
   font-size: 64px;
   line-height: 80px;
   font-weight: 400;
   color: white;
   text-transform: capitalize;
+  z-index: 1;
 }
 .block_description {
+  position: relative;
   font-size: 18px;
   line-height: 30px;
   color: #999999;
+  z-index: 1;
 }
 .underline {
   position: relative;
@@ -62,4 +66,9 @@ a {
 }
 ::-webkit-scrollbar-thumb {
   background-color: transparent;
+}
+@media screen and (max-width: 1250px) {
+  .block_description {
+    font-size: 16px;
+  }
 }

@@ -51,3 +51,43 @@
 .shop_tiles .block_description {
   text-align: left;
 }
+@media screen and (max-width: 1250px) {
+  .shop .block_title {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .shop_tiles_title {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+@media screen and (max-width: 975px) {
+  .shop_tiles {
+    padding: 0 20px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 700px) {
+  .shop_content {
+    padding: 120px 20px;
+  }
+  .shop .block_description br {
+    display: none;
+  }
+  .shop_tiles {
+    gap: 24px;
+  }
+  .shop_tiles_item {
+    padding: 20px 20px 20px 60px;
+  }
+  .shop_tiles_item::before {
+    top: 25px;
+    left: 20px;
+    width: 25px;
+    height: 25px;
+  }
+  .shop_tiles_title {
+    margin-bottom: 10px;
+  }
+}

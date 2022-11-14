@@ -5,6 +5,7 @@
   line-height: 60px;
   font-size: 18px;
   padding: 0 30px;
+  white-space: nowrap;
   transition: all 0.3s;
   cursor: pointer;
 }
@@ -27,4 +28,11 @@
 }
 .button.transparent:hover {
   outline: 1px solid white;
+}
+@media screen and (max-width: 700px) {
+  .button {
+    line-height: 50px;
+    font-size: 16px;
+    padding: 0 20px;
+  }
 }

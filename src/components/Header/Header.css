@@ -47,3 +47,28 @@
 .header_cart:hover {
   transform: scale(1.1);
 }
+.header_menu {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  line-height: 60px;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+@media screen and (max-width: 1250px) {
+  .header_links {
+    display: none;
+  }
+  .header_menu {
+    display: block;
+  }
+}
+@media screen and (max-width: 700px) {
+  .header_content {
+    padding: 20px;
+  }
+  .header .button {
+    display: none;
+  }
+}

@@ -41,7 +41,7 @@ export const Cloud = () => {
             className="cloud"
         >
             <div className="cloud_content wrapper">
-                <div>
+                <div className="cloud_content_block">
                     <Esports />
 
                     <motion.h2
@@ -49,7 +49,7 @@ export const Cloud = () => {
                         custom={1}
                         className="block_title"
                     >
-                        The New Era Of<br />
+                        The New Era Of
                         Cloud Gaming Here
                     </motion.h2>
 

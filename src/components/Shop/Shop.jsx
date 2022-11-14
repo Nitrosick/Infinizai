@@ -41,7 +41,7 @@ export const Shop = () => {
         <motion.div
             initial="hidden"
             whileInView="visible"
-            viewport={{ amount: 0.5, once: true }}
+            viewport={{ amount: 0.3, once: true }}
             className="shop"
         >
             <div className="shop_content wrapper">
@@ -66,7 +66,7 @@ export const Shop = () => {
                 <motion.div
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{ amount: 0.5, once: true }}
+                    viewport={{ amount: 0.4, once: true }}
                     className="shop_tiles"
                 >
                     <div className="shop_tiles_item">

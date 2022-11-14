@@ -36,7 +36,7 @@ export const Main = () => {
                         <li><a className='main_links_item' href="#">Twitch</a></li>
                     </ul>
 
-                    <div>
+                    <div className="main_content_block">
                         <Esports />
 
                         <motion.h1

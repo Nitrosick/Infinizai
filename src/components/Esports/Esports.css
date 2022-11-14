@@ -1,6 +1,8 @@
 .esports {
+  position: relative;
   display: flex;
   gap: 8px;
+  z-index: 1;
 }
 .esports_text {
   text-transform: uppercase;

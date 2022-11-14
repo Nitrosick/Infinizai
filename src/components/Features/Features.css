@@ -21,3 +21,21 @@
   line-height: 60px;
   color: white;
 }
+@media screen and (max-width: 1250px) {
+  .features_icon {
+    width: 96px;
+    height: 96px;
+  }
+  .features_title {
+    font-size: 36px;
+    line-height: 45px;
+  }
+}
+@media screen and (max-width: 975px) {
+  .features {
+    flex-direction: column;
+  }
+  .features_item {
+    height: 300px;
+  }
+}

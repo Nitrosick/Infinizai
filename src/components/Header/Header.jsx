@@ -2,8 +2,12 @@ import './Header.css';
 import logo from '../../images/logo.png';
 import cart from '../../images/cart.svg';
 import { Button } from '../Button/Button';
+import { NavMenu } from '../NavMenu/NavMenu';
+import { useState } from 'react';
 
 export const Header = () => {
+    const [menu, setMenu] = useState(false);
+
     return (
         <header className="header">
             <nav className="header_content wrapper">
@@ -29,6 +33,15 @@ export const Header = () => {
                 </a>
 
                 <Button text={'Contact Us'} type={'contour'} />
+
+                <button
+                    className='header_menu'
+                    onClick={() => {setMenu(true)}}
+                >
+                    Menu
+                </button>
+
+                <NavMenu visible={menu} switcher={setMenu} />
             </nav>
         </header>
     );
