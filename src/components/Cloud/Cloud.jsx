@@ -6,7 +6,7 @@ import { Button } from '../Button/Button';
 
 const textAnimation = {
     hidden: {
-        x: -100,
+        x: -50,
         opacity: 0
     },
     visible: custom => ({
@@ -21,7 +21,7 @@ const textAnimation = {
 
 const imageAnimation = {
     hidden: {
-        scale: 0.8
+        scale: 0.9
     },
     visible: {
         scale: 1,

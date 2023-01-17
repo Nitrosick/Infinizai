@@ -38,12 +38,12 @@ export const Sponsors = () => {
                     viewport={{ amount: 0.2, once: true }}
                     className="sponsors_logotypes"
                 >
-                    <motion.img variants={iconsAnimation} custom={6} className="sponsors_logotypes_item" src={logo_1} alt="logo" width="190" height="90" />
-                    <motion.img variants={iconsAnimation} custom={5} className="sponsors_logotypes_item" src={logo_2} alt="logo" width="190" height="90" />
-                    <motion.img variants={iconsAnimation} custom={4} className="sponsors_logotypes_item" src={logo_3} alt="logo" width="190" height="90" />
-                    <motion.img variants={iconsAnimation} custom={3} className="sponsors_logotypes_item" src={logo_4} alt="logo" width="190" height="90" />
-                    <motion.img variants={iconsAnimation} custom={2} className="sponsors_logotypes_item" src={logo_5} alt="logo" width="190" height="90" />
-                    <motion.img variants={iconsAnimation} custom={1} className="sponsors_logotypes_item" src={logo_3} alt="logo" width="190" height="90" />
+                    <motion.img variants={iconsAnimation} custom={6} className="sponsors_logotypes_item" src={logo_1} alt="logo" />
+                    <motion.img variants={iconsAnimation} custom={5} className="sponsors_logotypes_item" src={logo_2} alt="logo" />
+                    <motion.img variants={iconsAnimation} custom={4} className="sponsors_logotypes_item" src={logo_3} alt="logo" />
+                    <motion.img variants={iconsAnimation} custom={3} className="sponsors_logotypes_item" src={logo_4} alt="logo" />
+                    <motion.img variants={iconsAnimation} custom={2} className="sponsors_logotypes_item" src={logo_5} alt="logo" />
+                    <motion.img variants={iconsAnimation} custom={1} className="sponsors_logotypes_item" src={logo_3} alt="logo" />
                 </motion.div>
             </div>
         </div>

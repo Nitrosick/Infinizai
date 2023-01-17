@@ -2,21 +2,9 @@ import { motion } from 'framer-motion';
 import './Shop.css';
 import { Esports } from '../Esports/Esports';
 
-const titleAnimation = {
+const textAnimation = {
     hidden: {
-        x: 200,
-        opacity: 0
-    },
-    visible: {
-        x: 0,
-        opacity: 1,
-        transition: { duration: 1 }
-    }
-};
-
-const descAnimation = {
-    hidden: {
-        x: -200,
+        x: -50,
         opacity: 0
     },
     visible: {
@@ -48,7 +36,7 @@ export const Shop = () => {
                 <Esports />
 
                 <motion.h2
-                    variants={titleAnimation}
+                    variants={textAnimation}
                     className="block_title"
                 >
                     Your one stop shop<br />
@@ -56,7 +44,7 @@ export const Shop = () => {
                 </motion.h2>
 
                 <motion.p
-                    variants={descAnimation}
+                    variants={textAnimation}
                     className="block_description"
                 >
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem<br />

@@ -6,7 +6,7 @@ import { data } from '../../data';
 
 const titleAnimation = {
     hidden: {
-        x: -100,
+        x: -50,
         opacity: 0
     },
     visible: {

@@ -7,7 +7,7 @@ import { Esports } from '../Esports/Esports';
 
 const textAnimation = {
     hidden: {
-        x: 100,
+        x: 50,
         opacity: 0
     },
     visible: custom => ({
